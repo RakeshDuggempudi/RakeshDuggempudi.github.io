@@ -3,12 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Rakesh Duggempudi Portfolio</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 2px solid #2c3e50;
+      margin-bottom: 40px;
+    }
+    /* Logo container */
+    .logo {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      color: #2980b9;
+    }
+  </style>
 </head>
 <body>
-
   <header>
+    <!-- Inline SVG logo -->
+    <div class="logo" title="RD Logo" aria-label="RD Logo">
+      <svg width="50" height="50" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="false">
+        <text x="10" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#2c3e50">RD</text>
+      </svg>
+    </div>
+
+    <!-- Navigation -->
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -20,47 +68,13 @@
     </nav>
   </header>
 
+  <!-- Sample home section -->
   <section id="home">
-    <h1>Hello, I’m Your Name</h1>
+    <h1>Hello, I’m Rakesh Duggempudi</h1>
     <p>Data Engineer | Computer Vision Specialist</p>
   </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>A brief professional introduction highlighting your skills and background.</p>
-  </section>
+  <!-- More sections can go here -->
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python, SQL, AWS, Docker</li>
-      <li>Computer Vision, Deep Learning</li>
-      <li>ArcGIS, Metashape, GDAL</li>
-      <!-- Add more -->
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project Title</h3>
-      <p>Description, technologies used, and your role.</p>
-      <a href="https://github.com/yourusername/project" target="_blank">View on GitHub</a>
-    </div>
-    <!-- Repeat project blocks -->
-  </section>
-
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Your Name</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
